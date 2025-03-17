@@ -57,12 +57,12 @@ We have open-sourced the key files for the MAP model implementation and pretrain
 - [x] Release the model and pretrain code for 3D Task
 - [x] Release MAP training code and weights
 - [x] Release the [MAP](https://arxiv.org/pdf/2410.00871) paper
+      
 ## Acknowledge
 We thank the work of [MAE](https://github.com/facebookresearch/mae), [Mamba-r](https://github.com/wangf3014/Mamba-Reg), [MambaVision](https://github.com/NVlabs/MambaVision), [ARM](https://github.com/OliverRensu/ARM) and [Mamba3D](https://github.com/xhanxu/Mamba3D) for their contributions to the field and for inspiring us to propose this project.
 
 
 ## Citation
-
 ```bibtex
 @article{liu2024map,
   title={MAP: Unleashing Hybrid Mamba-Transformer Vision Backbone's Potential with Masked Autoregressive Pretraining},
@@ -72,5 +72,5 @@ We thank the work of [MAE](https://github.com/facebookresearch/mae), [Mamba-r](h
 }
 ```
 
-##
+## Contact
 If you have any questions for discussion or potential collaboration, please feel free to contact me at [liuyzchina@gmail.com](liuyzchina@gmail.com).
