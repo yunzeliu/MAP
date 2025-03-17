@@ -7,7 +7,7 @@
 
 ---
 
-<img src="Assets/teaser.png" width="80%" />
+<img src="Assets/teaser.png" width="60%" />
 
 
 ## Models
