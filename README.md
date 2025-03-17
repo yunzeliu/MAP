@@ -72,4 +72,5 @@ We thank the work of [MAE](https://github.com/facebookresearch/mae), [Mamba-r](h
 }
 ```
 
-
+##
+If you have any questions for discussion or potential collaboration, please feel free to contact me at [liuyzchina@gmail.com](liuyzchina@gmail.com).
