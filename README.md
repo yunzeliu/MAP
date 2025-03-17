@@ -7,7 +7,8 @@
 
 ---
 
-![Teaser](Assets/teaser.png)
+<img src="Assets/teaser.png" width="80%" />
+
 
 ## Models
 
