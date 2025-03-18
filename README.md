@@ -17,10 +17,11 @@
 | **MAP-Tiny** | [map_tiny_patch16_224](https://1drv.ms/u/c/12e5c3dbeffd0594/EQ94MObzMttJr9Gsx64Iz_EBrlnLpvkOj1zkaMC3KfxmUg?e=BK5TZ3) |
 | **MAP-Small** | [map_small_patch16_224](https://1drv.ms/u/c/12e5c3dbeffd0594/ERB_CVQtfeFFtszIZ4z2-MwBjckx6Q5xJql_kbQd6AKJBA?e=BargaK) |
 | **MAP-Base**  | [map_base_patch16_224](https://1drv.ms/u/c/12e5c3dbeffd0594/EfcSBplUe45Akije_5rsM90Bv7VkMneliUP1sVIAJvNWwA?e=JLLe0f)  |
-<!-- | **MAP-Large** | [map_large_patch16_224]() |
-| **MAP-Huge** | [map_huge_patch16_224]() |
+| **MAP-Large** | [map_large_patch16_224](https://1drv.ms/u/c/12e5c3dbeffd0594/ER3lKWV6IgVPjlA3ObDIWRsBUDmpGiBwHI1Jx4kZulu7Dg?e=ADWdiB) |
+| **MAP-Huge** | [map_huge_patch16_224](https://1drv.ms/u/c/12e5c3dbeffd0594/EVavHT4RgZlHul8fHMDyLUgBycMtog8spNhaeDNdopPLXQ?e=nqo9K7) |
 
-*We also provide a 600 epoch MAP-huge. -->
+*We also provide a 600-epoch MAP-huge.
+
 ## Environments
 
 ```bash
