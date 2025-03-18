@@ -53,9 +53,9 @@ We have open-sourced the key files for the MAP model implementation and pretrain
 ## TODO
 - [ ] Release MAP applications in point cloud video/robotics
 - [ ] Release the VideoMAP code
-- [ ] Release the VideoMAP paper
-- [ ] Release the weights of MAP-Large and MAP-Huge
-- [x] Release the model and pretrain code for 3D Task
+- [x] Release the [VideoMAP](https://arxiv.org/abs/2503.12332) paper
+- [x] Release the weights of MAP-Large and MAP-Huge
+- [x] Release the model and pretrain code for the 3D Task
 - [x] Release MAP training code and weights
 - [x] Release the [MAP](https://arxiv.org/pdf/2410.00871) paper
       
