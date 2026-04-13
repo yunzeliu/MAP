@@ -207,6 +207,10 @@ pytest tests/ -q
 }
 ```
 
+## Acknowledgement
+
+This codebase was refactored and rewritten with the assistance of [Claude Code](https://claude.ai/code).
+
 ## License
 
 MIT
