@@ -1,0 +1,77 @@
+[build-system]
+requires = ["setuptools>=64", "wheel", "torch>=2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pn4d"
+version = "0.1.0"
+description = "PointNet4D: lightweight 4D point-cloud video backbone with hybrid Mamba-Transformer temporal fusion and 4DMAP pretraining."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [
+    { name = "Yunze Liu" },
+]
+keywords = [
+    "point cloud",
+    "4D point cloud video",
+    "action segmentation",
+    "mamba",
+    "transformer",
+    "self-supervised pretraining",
+    "HOI4D",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.22",
+    "h5py>=3.0",
+    "einops>=0.6",
+    "tqdm>=4.60",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+mamba = [
+    "causal-conv1d>=1.1.0",
+    "mamba-ssm>=1.1.0",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov",
+    "ruff",
+]
+all = [
+    "pn4d[mamba,dev]",
+]
+
+[project.urls]
+Homepage = "https://github.com/yunzeliu/pn4d"
+Repository = "https://github.com/yunzeliu/pn4d"
+
+[tool.setuptools]
+packages = [
+    "pn4d",
+    "pn4d.ops",
+    "pn4d.modules",
+    "pn4d.models",
+    "pn4d.pretrain",
+    "pn4d.data",
+    "pn4d.engine",
+    "pn4d.utils",
+]
+
+[tool.setuptools.package-data]
+pn4d = ["ops/_ext_src/**/*"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"

@@ -1,0 +1,34 @@
+# P4Transformer on HOI4D action segmentation (online setting).
+
+data_path: ./datasets/AS_data_base
+
+model:
+  name: p4_transformer
+  args:
+    num_classes: 19
+    radius: 0.9
+    nsamples: 32
+    spatial_stride: 32
+    temporal_kernel_size: 3
+    temporal_stride: 1
+    emb_relu: false
+    dim: 2048
+    depth: 5
+    heads: 8
+    head_dim: 128
+    mlp_dim: 1024
+    causal: true
+
+seed: 803
+epochs: 50
+batch_size: 8
+workers: 10
+lr: 0.05
+momentum: 0.9
+weight_decay: 0.0001
+lr_warmup_epochs: 5
+lr_milestones: [20, 35]
+lr_gamma: 0.5
+print_freq: 20
+ckpt_freq: 5
+eval_overlaps: [0.10, 0.25, 0.50]
